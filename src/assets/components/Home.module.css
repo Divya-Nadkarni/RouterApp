@@ -1,0 +1,35 @@
+:global(body){
+    background-color: rgb(247, 220, 174);
+}
+
+p{
+    line-height: 1.5;
+    font-size: 30px;
+    margin: 20px;
+    text-align: justify;
+    
+}
+.highlight{
+    font-size: 50px;
+    font-weight: 700;
+    display: block;
+    margin: 10px;
+    color: rgba(233, 73, 19, 0.9);
+}
+
+.pic{
+    background-image: url(https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg);
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.flow{
+    display: flex;
+     justify-items: auto;
+}
+.para{
+    
+    width: 900px;
+}

@@ -1,0 +1,38 @@
+ul{
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 20px;
+  
+}
+
+ul li {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: brown;
+    font-weight: 30px;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: rgb(128, 41, 0);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: rgb(235, 15, 15);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 128, 0);
+    align-items: center;
+}
